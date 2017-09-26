@@ -3,4 +3,4 @@ This is the code for my website, which features my resume and also links to my G
 
 ## About
 
-The website mostly runs on Bootstrap, which you should chekc out if you want to make something similar.
+The website mostly runs on Bootstrap, which you should check out if you want to make something similar.
