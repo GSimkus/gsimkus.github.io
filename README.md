@@ -1,5 +1,5 @@
 # Hello, 
-This is the code for my website, which features my resume and also links to my GitHub projects and my LinkedIn page. If you're looking to hire me for something you've come to the right place. Please check out the rendered version at 
+This is the code for my website, which features my resume and also links to my GitHub projects and my LinkedIn page. If you're looking to hire me for something you've come to the right place. Please check out the rendered version at:
 ### https://gsimkus.github.io.
 
 ## About
