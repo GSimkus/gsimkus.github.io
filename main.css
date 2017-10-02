@@ -1,7 +1,3 @@
-a{
-  color: white;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -37,7 +33,9 @@ header p {
   padding: 0 20px;
   margin: 0;
 }
-
+header a {
+  color: white;
+}
 header a:hover{
   text-decoration: none;
   color : #979aa0;
@@ -70,6 +68,9 @@ section .row img {
   width: 100%;
 }
 
+section .row a {
+  font-weight: bold;
+}
 .col-md-6 {
   margin: 0 0 30px;
 }
