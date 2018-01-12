@@ -8,13 +8,29 @@ h1 {
   font-weight: 500;
 }
 
+.skiplink {
+  position: fixed;
+  display: block;
+  font-size: 0.6em;
+  color: #333;
+  text-decoration: none;
+  overflow:hidden;
+}
+
+.skiplink:hover {
+  text-decoration: inherit;
+  color: #ccc;
+}
+
 .navbar {
   background-color: #0c000c;
   border-color: #0b0b0b;
-  padding: 10px 0;
+  padding-top: 0px;
+  padding-bottom: 10px;
   font-size: 1.2em;
   font-weight: 500
   color: #f0f0f0
+  position:absolute;
 }
 
 .navbar .navbar-brand:hover,

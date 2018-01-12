@@ -1,4 +1,10 @@
-function main(){
+window.addEventListener("DOMContentLoaded", function(event) {
+    document.getElementById('resume').addEventListener("click", function(){ ga('send', 'event', 'My Site', 'clickedResume')});
+    document.getElementById('transcript').addEventListener("click", function(){ ga('send', 'event', 'My Site', 'clickedTranscript')});
 
-}
-$(document).ready(main);
+    var classname = document.getElementsByClassName("classname")
+    for (var i = 0; i < classname.length; i++) {
+        classname[i].addEventListener("click", function(){ ga('send', 'event', 'My Site', 'clickedProject')});
+        };
+    console.log("Loaded!");
+});

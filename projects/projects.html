@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang-"en">
+<html lang="en-CA">
 <head>
   <meta charset="utf-8"/>
   <title>Glen Simkus' Projects</title>
@@ -8,7 +8,7 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
   <!-- main CSS-->
   <link rel="stylesheet" type="text/css" href="../main.css">
-  
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006933-1"></script>
   <script>
@@ -21,25 +21,25 @@
 </head>
 
 <body>
-<!-- Navigation -->
-
-  <header class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="../index.html">G.S.</a>
+  <!-- Navigation Bar -->
+    <header class="navbar navbar-inverse">
+      <a href="#maincontent" class="skiplink">Skip to <br> main content</a>
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../index.html">G.S.</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class-"active">
+          <li><a href="projects.html">Projects</a></h2>
+          <li><a id="resume" href="../Simkus_Resume.pdf">Resume (PDF)</a></h2>
+          <li><a id="transcript" href="../Simkus_UVIC_Transcript.pdf">Transcript (PDF)</a></h2>
+          <li><a href="../contact/contact.html">Contact</a></h2>
+        </ul>
       </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li class-"active">
-        <li><a href="projects.html">Projects</a></h2>
-        <li><a href="../Simkus_Resume.pdf">Resume (PDF)</a></h2>
-        <li><a href="../Simkus_UVIC_Transcript.pdf">Transcript (PDF)</a></h2>
-        <li><a href="../contact/contact.html">Contact</a></h2>
-      </ul>
-    </div>
-  </header>
+    </header>
 
-<!-- Main Content of Page -->
-  <section class="container">
+  <!-- Main Contents of Page -->
+  <main class="container" id="maincontent">
     <div class="row">
       <figure class="col-sm-12">
         <h3>Bioinformatics and Unsupervised Machine Learning Tutorial</h3>
@@ -54,7 +54,7 @@
         </p>
         <p>The code of this notebook is all written in Python 3, and a copy of this notebook is available at <a href="https://github.com/GSimkus/bioinformatics_tutorial_clustering/"><b>My GitHub</b></a>.
         </p>
-        <p><a class="btn btn-primary" href="bioinformatics/yeast_clustering_tutorial.html">Check it out</a></p>
+        <p><a class="btn btn-primary project" href="bioinformatics/yeast_clustering_tutorial.html">Check it out</a></p>
       </figure>
     </div>
   </section>
@@ -75,7 +75,7 @@
           statistical analysis of the simulation. It's also highly customizable, from colors, to the movement of
           the particles, and even allows for real-time rendering.
         </p>
-        <p><a class="btn btn-primary" href="https://github.com/GSimkus/brownian_crystal_generator">Check it out on Github</a></p>
+        <p><a class="btn btn-primary project" href="https://github.com/GSimkus/brownian_crystal_generator">Check it out on Github</a></p>
       </figure>
     </div>
   </section>
@@ -94,7 +94,7 @@
             It loads an input and output dataset, then loops 100000 times, backprogpagating error correction each loop to arrive at a trained net
             to which you can present new situations.
         </p>
-        <p><a class="btn btn-primary" href="https://github.com/GSimkus/simple_neuralnet">Check it out on Github</a></p>
+        <p><a class="btn btn-primary project" href="https://github.com/GSimkus/simple_neuralnet">Check it out on Github</a></p>
       </figure>
     </div>
   </section>
@@ -115,7 +115,7 @@
         <p>
           It's under an MIT licence, so if you want to borrow some of my code that's cool, just give attributation.
         </p>
-        <p><a class="btn btn-primary" href="https://github.com/GSimkus/gsimkus.github.io">Check it out on Github</a></p>
+        <p><a class="btn btn-primary project" href="https://github.com/GSimkus/gsimkus.github.io">Check it out on Github</a></p>
       </figure>
     </div>
   </section>
@@ -142,7 +142,7 @@
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
-  <script src='main.js'></script>
+  <script src='../main.js'></script>
 
 </body>
 </html>
