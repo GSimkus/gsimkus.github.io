@@ -8,20 +8,6 @@ h1 {
   font-weight: 500;
 }
 
-.skiplink {
-  position: fixed;
-  display: block;
-  font-size: 0.6em;
-  color: #333;
-  text-decoration: none;
-  overflow:hidden;
-}
-
-.skiplink:hover {
-  text-decoration: inherit;
-  color: #ccc;
-}
-
 .navbar {
   background-color: #0c000c;
   border-color: #0b0b0b;
@@ -44,6 +30,19 @@ h1 {
   font-weight: 500;
 }
 
+.skiplink {
+  position: fixed;
+  display: block;
+  font-size: 0.6em;
+  color: #333;
+  text-decoration: none;
+  overflow:hidden;
+}
+
+.skiplink:hover {
+  text-decoration: inherit;
+  color: #ccc;
+}
 
 main .row img {
   margin: 0 0 30px;
